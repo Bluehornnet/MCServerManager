@@ -66,7 +66,7 @@ fi
 if [ "$choice" == "4" ]; then
 clear
 echo "Before you start this will create a folder in /home/pi/minecraft
-there will be a file called ServerManager.sh run that script every time 
+there will be a file called MCServerManager.sh run that script every time 
 you start or make changes to the server
 
 What is the current version of minecraft?"
