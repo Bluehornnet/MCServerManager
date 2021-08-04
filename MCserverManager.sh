@@ -5,8 +5,8 @@ echo "
 1)Start Server
 2)Install / Update Minecraft
 3)Install Java 16
-5)Install Everything and Run (Easy First Time Setup)
-6)Update Server And Start Server"
+4)Install Everything and Run (Easy First Time Setup)
+5)Update Server And Start Server"
 
 
 echo
