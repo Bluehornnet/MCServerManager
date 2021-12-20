@@ -30,7 +30,7 @@ read ram
 clear
 echo "Starting server with $ram MB of Ram"
 cd /home/pi/minecraft
-export PATH=$PWD/17.0.1_12/bin:$PATH
+export PATH=$PWD/jdk-17.0.1+12/bin:$PATH
 echo "accepting eula"
 echo eula=true > eula.txt
 java -Xms"$ram"M -Xmx"$ram"M -jar paperclip.jar 
@@ -95,7 +95,7 @@ read ram
 clear
 echo "Starting server with $ram MB of Ram"
 cd /home/pi/minecraft
-export PATH=$PWD/jdk-17.0.1_12/bin:$PATH
+export PATH=$PWD/jdk-17.0.1+12/bin:$PATH
 echo "accepting eula"
 echo eula=true > eula.txt
 java -Xms"$ram"M -Xmx"$ram"M -jar paperclip.jar 
@@ -121,7 +121,7 @@ read ram
 clear
 echo "Starting server with $ram MB of Ram"
 cd /home/pi/minecraft
-export PATH=$PWD/jdk-17.0.1_12/bin:$PATH
+export PATH=$PWD/jdk-17.0.1+12/bin:$PATH
 echo "accepting eula"
 echo eula=true > eula.txt
 java -Xms"$ram"M -Xmx"$ram"M -jar paperclip.jar 
