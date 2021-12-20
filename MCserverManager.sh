@@ -30,7 +30,7 @@ read ram
 clear
 echo "Starting server with $ram MB of Ram"
 cd /home/pi/minecraft
-export PATH=$PWD/jdk-16.0.1+9/bin:$PATH
+export PATH=$PWD/17.0.1_12/bin:$PATH
 echo "accepting eula"
 echo eula=true > eula.txt
 java -Xms"$ram"M -Xmx"$ram"M -jar paperclip.jar 
@@ -58,7 +58,7 @@ sudo apt-echo eula=true > eula.txtget install screen -y
 mkdir /home/pi/minecraft
 cd /home/pi/minecraft
 wget https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_arm_linux_hotspot_17.0.1_12.tar.gz
-tar xzf OpenJDK16U-jdk_arm_linux_hotspot_16.0.1_9.tar.gz
+tar xzf OpenJDK17U-jdk_arm_linux_hotspot_17.0.1_12.tar.gz
 echo "Java16 has been installed"
 read else
 fi
@@ -82,7 +82,7 @@ echo "installing screen"
 sudo apt-get install screen -y
 echo "Installing Java 16"
 wget https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_arm_linux_hotspot_17.0.1_12.tar.gz
-tar xzf OpenJDK16U-jdk_arm_linux_hotspot_16.0.1_9.tar.gz
+tar xzf OpenJDK17U-jdk_arm_linux_hotspot_17.0.1_12.tar.gz
 echo "Java 16 Installed"
 sleep 5s
 clear
@@ -95,7 +95,7 @@ read ram
 clear
 echo "Starting server with $ram MB of Ram"
 cd /home/pi/minecraft
-export PATH=$PWD/jdk-16.0.1+9/bin:$PATH
+export PATH=$PWD/jdk-17.0.1_12/bin:$PATH
 echo "accepting eula"
 echo eula=true > eula.txt
 java -Xms"$ram"M -Xmx"$ram"M -jar paperclip.jar 
@@ -121,7 +121,7 @@ read ram
 clear
 echo "Starting server with $ram MB of Ram"
 cd /home/pi/minecraft
-export PATH=$PWD/jdk-16.0.1+9/bin:$PATH
+export PATH=$PWD/jdk-17.0.1_12/bin:$PATH
 echo "accepting eula"
 echo eula=true > eula.txt
 java -Xms"$ram"M -Xmx"$ram"M -jar paperclip.jar 
